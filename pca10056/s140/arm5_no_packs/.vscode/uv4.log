@@ -1,0 +1,7 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'nrf52840_xxaa'
+compiling app_error_weak.c...
+linking...
+Program Size: Code=78336 RO-data=20408 RW-data=696 ZI-data=24072  
+".\_build\nrf52840_xxaa.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:07
