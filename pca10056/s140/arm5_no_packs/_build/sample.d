@@ -104,6 +104,7 @@
 .\_build\sample.o: ..\..\..\..\..\..\external\fatfs\src\ff.h
 .\_build\sample.o: ..\..\..\..\..\..\external\fatfs\src\integer.h
 .\_build\sample.o: ..\..\..\..\..\..\external\fatfs\src\ffconf.h
+.\_build\sample.o: ..\..\..\w25q16.h
 .\_build\sample.o: ..\..\..\..\..\..\modules\nrfx\hal\nrf_uart.h
 .\_build\sample.o: ..\..\..\..\..\..\modules\nrfx\hal\nrf_uarte.h
 .\_build\sample.o: ..\..\..\..\..\..\components\libraries\delay\nrf_delay.h

@@ -3,6 +3,7 @@
 ".\_build\ble_service.o"
 ".\_build\sample.o"
 ".\_build\filesystem.o"
+".\_build\w25q16.o"
 ".\_build\boards.o"
 ".\_build\bsp.o"
 ".\_build\bsp_btn_ble.o"

@@ -115,6 +115,7 @@
 .\_build\filesystem.o: ..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h
 .\_build\filesystem.o: ..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h
 .\_build\filesystem.o: ..\..\..\..\..\..\components\ble\nrf_ble_qwr\nrf_ble_qwr.h
+.\_build\filesystem.o: ..\..\..\w25q16.h
 .\_build\filesystem.o: ..\..\..\..\..\..\modules\nrfx\hal\nrf_uart.h
 .\_build\filesystem.o: ..\..\..\..\..\..\modules\nrfx\hal\nrf_uarte.h
 .\_build\filesystem.o: ..\..\..\..\..\..\components\libraries\delay\nrf_delay.h

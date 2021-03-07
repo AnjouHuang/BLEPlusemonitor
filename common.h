@@ -30,6 +30,7 @@
 #include "nrf_ble_gatt.h"
 #include "nrf_ble_qwr.h"
 #include "ff.h"
+#include "w25q16.h"
 
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
@@ -73,3 +74,5 @@ extern uint16_t fake_value(uint16_t);
 
 extern void uart_init(void);													//uart初始化
 extern uint32_t data_send(uint8_t data[],uint16_t length);
+
+extern void spi_flash_test(void);

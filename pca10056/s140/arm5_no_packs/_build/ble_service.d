@@ -117,3 +117,4 @@
 .\_build\ble_service.o: ..\..\..\..\..\..\external\fatfs\src\ff.h
 .\_build\ble_service.o: ..\..\..\..\..\..\external\fatfs\src\integer.h
 .\_build\ble_service.o: ..\..\..\..\..\..\external\fatfs\src\ffconf.h
+.\_build\ble_service.o: ..\..\..\w25q16.h

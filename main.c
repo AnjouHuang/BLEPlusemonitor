@@ -9,6 +9,9 @@ int main(void)
 //		fatfs_init();		//文件系统初始化
 		sampling_init();	//adc采样初始化
 		ble_app_init();		//蓝牙服务初始化
+		spi_flash_init();
+		spi_flash_test();
+		printf("spi test finish\r\n");
 		for(;;){
 			idle_state_handle();
 		}

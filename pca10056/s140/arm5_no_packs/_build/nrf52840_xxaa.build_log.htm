@@ -22,30 +22,19 @@ Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
 D:\nRF5_SDK_17.0.2_d674dde\examples\ble_peripheral\app-ecg-master\pca10056\s140\arm5_no_packs\ble_app_hrs_pca10056_s140.uvprojx
-Project File Date:  03/03/2021
+Project File Date:  03/07/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin'
 Build target 'nrf52840_xxaa'
-compiling ble_hrs.c...
-compiling ble_service.c...
-..\..\..\common.h(75): warning:  #1-D: last line of file ends without a newline
-  extern uint32_t data_send(uint8_t data[],uint16_t length);
-..\..\..\ble_service.c(1116): warning:  #223-D: function "nrf_ble_lesc_request_handler" declared implicitly
-      err_code = nrf_ble_lesc_request_handler();
-..\..\..\ble_service.c(110): warning:  #177-D: variable "m_battery_timer_id"  was declared but never referenced
-  APP_TIMER_DEF(m_battery_timer_id);                                  /**< Battery timer. */
-..\..\..\ble_service.c(113): warning:  #177-D: variable "m_sensor_contact_timer_id"  was declared but never referenced
-  APP_TIMER_DEF(m_sensor_contact_timer_id);                           /**< Sensor contact detected timer. */
-..\..\..\ble_service.c(341): warning:  #177-D: function "battery_level_meas_timeout_handler"  was declared but never referenced
-  static void battery_level_meas_timeout_handler(void * p_context)
-..\..\..\ble_service.c(429): warning:  #177-D: function "sensor_contact_detected_timeout_handler"  was declared but never referenced
-  static void sensor_contact_detected_timeout_handler(void * p_context)
-..\..\..\ble_service.c: 6 warnings, 0 errors
+compiling main.c...
+..\..\..\common.h(78): warning:  #1-D: last line of file ends without a newline
+  extern void spi_flash_test(void);
+..\..\..\main.c: 1 warning, 0 errors
 linking...
-Program Size: Code=96652 RO-data=15600 RW-data=772 ZI-data=31484  
+Program Size: Code=97608 RO-data=15652 RW-data=780 ZI-data=32012  
 FromELF: creating hex file...
-".\_build\nrf52840_xxaa.axf" - 0 Error(s), 6 Warning(s).
+".\_build\nrf52840_xxaa.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -73,9 +62,9 @@ Package Vendor: NordicSemiconductor
    * Component: NordicSemiconductor::Device:Startup:8.35.0
       Source file:   Device\Source\arm\arm_startup_nrf52840.s
       Source file:   Device\Source\system_nrf52840.c
-      Include file:  Device\Include\system_nrf52840.h
       Include file:  Device\Include\system_nrf.h
-Build Time Elapsed:  00:00:04
+      Include file:  Device\Include\system_nrf52840.h
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

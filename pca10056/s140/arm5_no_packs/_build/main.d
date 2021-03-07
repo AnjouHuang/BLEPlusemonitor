@@ -104,6 +104,7 @@
 .\_build\main.o: ..\..\..\..\..\..\external\fatfs\src\ff.h
 .\_build\main.o: ..\..\..\..\..\..\external\fatfs\src\integer.h
 .\_build\main.o: ..\..\..\..\..\..\external\fatfs\src\ffconf.h
+.\_build\main.o: ..\..\..\w25q16.h
 .\_build\main.o: ..\..\..\..\..\..\modules\nrfx\hal\nrf_uart.h
 .\_build\main.o: ..\..\..\..\..\..\modules\nrfx\hal\nrf_uarte.h
 .\_build\main.o: ..\..\..\..\..\..\components\libraries\delay\nrf_delay.h
